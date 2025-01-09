@@ -1,6 +1,8 @@
 module github.com/wagoodman/dive
 
-go 1.19
+go 1.21
+
+toolchain go1.23.4
 
 require (
 	github.com/awesome-gocui/gocui v1.1.0
@@ -10,17 +12,17 @@ require (
 	github.com/docker/docker v24.0.7+incompatible
 	github.com/dustin/go-humanize v1.0.0
 	github.com/fatih/color v1.7.0
-	github.com/google/uuid v1.1.1
+	github.com/google/uuid v1.6.0
 	github.com/logrusorgru/aurora v0.0.0-20190803045625-94edacc10f9b
 	github.com/lunixbochs/vtclean v1.0.0
 	github.com/mitchellh/go-homedir v1.1.0
 	github.com/phayes/permbits v0.0.0-20190612203442-39d7c581d2ee
 	github.com/sergi/go-diff v1.0.0
 	github.com/sirupsen/logrus v1.4.2
-	github.com/spf13/afero v1.2.2
+	github.com/spf13/afero v1.12.0
 	github.com/spf13/cobra v0.0.5
 	github.com/spf13/viper v1.4.0
-	golang.org/x/net v0.17.0
+	golang.org/x/net v0.33.0
 )
 
 require (
@@ -52,9 +54,9 @@ require (
 	github.com/spf13/jwalterweatherman v1.1.0 // indirect
 	github.com/spf13/pflag v1.0.5 // indirect
 	github.com/stretchr/testify v1.4.0 // indirect
-	golang.org/x/sys v0.13.0 // indirect
-	golang.org/x/term v0.13.0 // indirect
-	golang.org/x/text v0.13.0 // indirect
+	golang.org/x/sys v0.29.0 // indirect
+	golang.org/x/term v0.27.0 // indirect
+	golang.org/x/text v0.21.0 // indirect
 	gopkg.in/yaml.v2 v2.2.8 // indirect
 	gotest.tools v2.2.0+incompatible // indirect
 	gotest.tools/v3 v3.5.0 // indirect
